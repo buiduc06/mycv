@@ -320,7 +320,7 @@
 		
 		//lay data tu server khi nguoi dung truy cap trang
 		$.ajax({
-			url: "http://webapi.net/api/products",
+			url: "http://ucan.edu.vn/api/products",
 			type: 'get',
 			asyc:true,
 			success : function (result){
@@ -331,7 +331,7 @@
 
 		// load menu tu server
 		$.ajax({
-			url: "http://webapi.net/api/categories",
+			url: "http://ucan.edu.vn/api/categories",
 			type: 'get',
 			asyc:true,
 			success : function (result){
@@ -350,7 +350,7 @@
 			var id = $(this).data("id");
 			$('#filters li').removeClass('active');
 			$.ajax({
-				url: "http://webapi.net/api/categories/"+id,
+				url: "http://ucan.edu.vn/api/categories/"+id,
 				type: 'get',
 				asyc:true,
 				success : function (result){
@@ -365,7 +365,7 @@
 		$("#showdata").on( "click",'.myproduct-button', function() {
 			var id = $(this).data("id");
 			$.ajax({
-				url: "http://webapi.net/api/products/"+id,
+				url: "http://ucan.edu.vn/api/products/"+id,
 				type: 'get',
 				asyc:true,
 				success : function (result){
