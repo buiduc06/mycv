@@ -68,7 +68,7 @@
 			<ul class="list-inline">
 				<li class="email list-inline-item"><i class="fa fa-envelope"></i><a href="mailto:buiduc1998@gmail.com">buiduc1998@gmail.com</a></li>
 				<li class="list-inline-item"><i class="fa fa-phone"></i> <a href="tel: 01663303338">01663303338</a></li>
-				<li class="website list-inline-item"><i class="fa fa-globe"></i><a href="http://ucan.edu.vn" target="_blank">ducpanda.net</a></li>
+				<li class="website list-inline-item"><i class="fa fa-globe"></i><a href="http://webapi.ucan.edu.vn" target="_blank">ducpanda.net</a></li>
 			</ul>
 		</div><!--//container-->
 	</div><!--//contact-info-->
@@ -304,7 +304,7 @@
 </div>
 <script>
 											//author : ducpanda
-											//ucan.edu.vn
+											//webapi.ucan.edu.vn
 
 											$(document).ready(function($) {
 
@@ -320,7 +320,7 @@
 		
 		//lay data tu server khi nguoi dung truy cap trang
 		$.ajax({
-			url: "http://ucan.edu.vn/api/products",
+			url: "http://webapi.ucan.edu.vn/api/products",
 			type: 'get',
 			asyc:true,
 			success : function (result){
@@ -331,7 +331,7 @@
 
 		// load menu tu server
 		$.ajax({
-			url: "http://ucan.edu.vn/api/categories",
+			url: "http://webapi.ucan.edu.vn/api/categories",
 			type: 'get',
 			asyc:true,
 			success : function (result){
@@ -350,7 +350,7 @@
 			var id = $(this).data("id");
 			$('#filters li').removeClass('active');
 			$.ajax({
-				url: "http://ucan.edu.vn/api/categories/"+id,
+				url: "http://webapi.ucan.edu.vn/api/categories/"+id,
 				type: 'get',
 				asyc:true,
 				success : function (result){
@@ -365,7 +365,7 @@
 		$("#showdata").on( "click",'.myproduct-button', function() {
 			var id = $(this).data("id");
 			$.ajax({
-				url: "http://ucan.edu.vn/api/products/"+id,
+				url: "http://webapi.ucan.edu.vn/api/products/"+id,
 				type: 'get',
 				asyc:true,
 				success : function (result){
