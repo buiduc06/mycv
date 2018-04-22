@@ -325,7 +325,12 @@
 			asyc:true,
 			success : function (result){
 				$("#showdata").html(result)
+			},
+			error: function (jqXHR, status, error) {
+				alert('404 error : Không thể kết nối đến server');
+				$("#showdata").html('<h3 class="text-center text-danger">Không thể kết nối đến server</h3>');
 			}
+
 		});
 		//add lay data
 
