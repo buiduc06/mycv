@@ -928,3 +928,110 @@ a.btn:hover {
 .config-panel .close .fa {
   color: #fff;
 }
+
+/*ducpanda*/
+
+.title-box{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: white;
+  padding: 0;
+      box-shadow: 0 3px 3px 0 rgba( 1,2,2,0.05);
+      margin: 3vw 0 2vw 0;
+}
+
+.title-box h4{
+  margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #a8aab3;
+    font-size: 33px;
+    letter-spacing: 3px;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+.skill-content{
+
+   padding: 0;
+}
+
+.skill-content ul{
+  background-color: white;
+}
+.skill-col{
+   padding: 1.5em;
+  background-color: white;
+  border-radius: 5px;
+}
+.skill-col h4{
+       color: #32323a;
+   font-weight: 500;
+  font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+
+}
+.skill-col section ul li{
+  display: list-item;
+  color: #8c8c8c;
+  line-height: 25px;
+}
+
+
+.project-content{
+  background-color: white;
+  padding: 2.5em 1em 2.5em 1em;
+}
+b{
+  font-weight: bold;
+}
+.project-content .job-desc li{
+  line-height: 22px;
+}
+.ducpanda-img{
+  width: 240px;
+  height: 135px;
+  object-fit: cover;
+}
+
+
+
+    .ducpanda-intro {
+        margin: auto;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+    .ducpanda-intro h2{
+
+        font-size: 20px;
+        font-weight: normal;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #e1e1e1;
+    }
+    .ducpanda-intro span{
+        display: block;
+    font-size: 35px;
+        color: #363636;
+        font-weight: 700;
+        margin-top: 15px;
+        text-transform: uppercase;
+    }
+    .ducpanda-intro .rating img{
+        height: 13px;
+    }
+    .textedit li {
+        line-height: 24px;
+        padding-top: 10px;
+        text-align: justify;
+    }
+    .theme-image a img{
+        max-width: 500px;
+        max-height: 500px;
+        object-fit: cover;
+    }
+.job-desc li{
+    margin-bottom: 0.6vw;
+}
+
+/*end ducpand*/
